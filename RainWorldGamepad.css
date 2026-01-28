@@ -185,18 +185,14 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(unused...);
-    background-position: 0 0;
+    background: url(https://raw.githubusercontent.com/nathanj29/RainWorldGamepadViewer/refs/heads/main/pictures/stick.png);
+    background-position: -85px 0;
     height: 83px;
     width: 84px;
 }
 
-.sticks > .stick {
-  background-image: url(https://raw.githubusercontent.com/nathanj29/RainWorldGamepadViewer/refs/heads/main/pictures/stick.png);
-}
-
 .xbox .stick.pressed {
-    background-position: 0 0;
+    background-position: -1px 0;
 }
 
 .xbox .stick.left {
@@ -205,7 +201,6 @@
 }
 
 .xbox .stick.right {
-  background-position: -85px 0 !important;
     top: 113px;
     left: 288px;
 }
